@@ -2,16 +2,25 @@
 Project Assignment
 
 #First, create a new directory for your project and set up a virtual environment
-   mkdir fastapi-recommender
-   cd fastapi-recommender
-   python -m venv venv
-   source venv/Scripts/activate  
+
+   1.mkdir fastapi-recommender
+   
+  2. cd fastapi-recommender
+   
+  3. python -m venv venv
+   
+   4.source venv/Scripts/activate  
 
 #Install required dependencies
-pip install fastapi uvicorn sqlalchemy sqlite3 openai transformers faiss-cpu redis asyncpg psycopg2
+
+5.pip install fastapi uvicorn sqlalchemy sqlite3 openai transformers faiss-cpu redis asyncpg psycopg2
 
 #Define the Data Model
+
 #Populate Product Data
-Run this file ->python data_loader.py
+
+6.Run this file ->python data_loader.py
+
 #Implement API Endpoints
-Run the API->uvicorn main:app --reload
+
+7.uvicorn main:app --reload
